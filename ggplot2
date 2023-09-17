@@ -1,0 +1,24 @@
+# Load the ggplot2 package
+library(ggplot2)
+
+# Create a data frame
+data <- data.frame(
+  Name = c("Alice", "Bob", "Charlie", "David"),
+  Age = c(25, 30, 35, 40),
+  Salary = c(50000, 60000, 70000, 80000)
+)
+
+# Print the data frame
+print("Data Frame:")
+print(data)
+
+# Calculate and print the average salary
+average_salary <- mean(data$Salary)
+cat("Average Salary:", average_salary, "\n")
+
+# Create a bar plot for Salary
+ggplot(data, aes(x=Name, y=Salary)) +
+  geom_bar(stat="identity", fill="blue") +
+  ggtitle("Salary by Name") +
+  xlab("Name") +
+  ylab("Salary")
