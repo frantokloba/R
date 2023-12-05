@@ -93,3 +93,8 @@ v/** nice **/
 mat_transpose <- t(mat)
 print("Transposed Matrix:")
 print(mat_transpose)
+
+# Transpose the matrix
+mat_transpose <- t(mat)
+print("Transposed Matrix:")
+print(mat_transpose)
