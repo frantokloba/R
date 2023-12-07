@@ -75,14 +75,6 @@ print(paste("Determinant of square matrix:", det_value))
 
 /** nice **/
 
-45
-545454
-45
-4545
-
-
-/** nice **/
-
 # Calculate the determinant of a square matrix
 square_mat <- matrix(c(1, 2, 3, 4), nrow=2)
 det_value <- det(square_mat)
