@@ -86,20 +86,7 @@ print(mat_transpose)
 
 /************************/
 
-/** nice **/
-
-55555
-v/** nice **/
-
-# Transpose the matrix
-mat_transpose <- t(mat)
-print("Transposed Matrix:")
-print(mat_transpose)
-
-# Transpose the matrix
-mat_transpose <- t(mat)
-print("Transposed Matrix:")
-print(mat_transpose)
+000000000000000000001110100110
 
 
 /************************/
