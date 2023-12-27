@@ -67,14 +67,3 @@ print(paste("Determinant of square matrix:", det_value))
 
 /** nice **/
 ************************
-
-# Transpose the matrix
-mat_transpose <- t(mat)
-print("Transposed Matrix:")
-print(mat_transpose)
-
-# Transpose the matrix
-mat_transpose <- t(mat)
-print("Transposed Matrix:")
-print(mat_transpose)
-*****************************
