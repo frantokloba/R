@@ -67,3 +67,24 @@ print(paste("Determinant of square matrix:", det_value))
 
 /** nice **/
 ************************
+# Create a matrix
+mat <- matrix(c(1, 2, 3, 4, 5, 6), nrow=2, ncol=3)
+print("Matrix:")
+print(mat)
+
+# Transpose the matrix
+mat_transpose <- t(mat)
+print("Transposed Matrix:")
+print(mat_transpose)
+
+# Multiply the matrix by a scalar
+mat_multiplied <- mat * 2
+print("Matrix multiplied by 2:")
+print(mat_multiplied)
+
+# Calculate the determinant of a square matrix
+square_mat <- matrix(c(1, 2, 3, 4), nrow=2)
+det_value <- det(square_mat)
+print(paste("Determinant of square matrix:", det_value))
+
+/** nice **/
