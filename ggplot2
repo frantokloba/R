@@ -31,11 +31,7 @@ ggplot(data, aes(x=Name, y=Salary)) +
   ylab("Salary")
 
 
-/** COPY **/
-
-55555
-
-/** COPY **/
+444444444444444
 
 # Create a bar plot for Salary
 ggplot(data, aes(x=Name, y=Salary)) +
