@@ -117,3 +117,14 @@ ggplot(data, aes(x=Name, y=Salary)) +
   ylab("Salary")
 
 /** COPY **/
+
+/** COPY **/
+
+# Create a bar plot for Salary
+ggplot(data, aes(x=Name, y=Salary)) +
+  geom_bar(stat="identity", fill="blue") +
+  ggtitle("Salary by Name") +
+  xlab("Name") +
+  ylab("Salary")
+
+/** COPY **/
