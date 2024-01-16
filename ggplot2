@@ -140,5 +140,3 @@ ggplot(data, aes(x=Name, y=Salary)) +
 /** COPY **/
 /** COPY **/
 
-/** COPY **/
-/** COPY **/
