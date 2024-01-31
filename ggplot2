@@ -12,6 +12,7 @@ data <- data.frame(
 print("Data Frame:")
 print(data)
 
+
 # Calculate and print the average salary
 average_salary <- mean(data$Salary)
 cat("Average Salary:", average_salary, "\n")
