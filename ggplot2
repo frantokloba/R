@@ -187,8 +187,6 @@ ggplot(data, aes(x=Name, y=Salary)) +
   ylab("Salary")
 
 /** COPY **/
-/**8888888888****/
-
 
 # Create a bar plot for Salary
 ggplot(data, aes(x=Name, y=Salary)) +
@@ -198,7 +196,6 @@ ggplot(data, aes(x=Name, y=Salary)) +
   ylab("Salary")
 
 /**8888888888****/
-
 
 # Create a bar plot for Salary
 ggplot(data, aes(x=Name, y=Salary)) +
