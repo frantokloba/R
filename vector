@@ -13,6 +13,10 @@ mat <- matrix(c(1, 2, 3, 4, 5, 6), nrow=2, ncol=3)
 print("Matrix:")
 print(mat)
 
+# Create a matrix
+mat <- matrix(c(1, 2, 3, 4, 5, 6), nrow=2, ncol=3)
+print("Matrix:")
+print(mat)
 
 # Create a matrix2
 mat2 <- matrix(c(1, 2, 3, 4, 5, 6), nrow=2, ncol=3)
