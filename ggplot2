@@ -104,6 +104,8 @@ ggplot(data, aes(x=Name, y=Salary)) +
 
 /** COPY **/
 
+
+
 /** COPY **/
 
 # Create a bar plot for Salary
