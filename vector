@@ -401,6 +401,11 @@ mat_transpose <- t(mat)
 print("Transposed Matrix:")
 print(mat_transpose)
 
+# Transpose the matrix
+mat_transpose <- t(mat)
+print("Transposed Matrix:")
+print(mat_transpose)
+
 # Multiply the matrix by a scalar
 mat_multiplied <- mat * 2
 print("Matrix multiplied by 2:")
