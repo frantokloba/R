@@ -14,6 +14,12 @@ print(data)
 
 /** COPY **/
 
+# Print the data frame
+print("Data Frame:")
+print(data)
+
+/** COPY **/
+
 # Create a bar plot for Salary
 ggplot(data, aes(x=Name, y=Salary)) +
   geom_bar(stat="identity", fill="blue") +
